@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
 import { LoginModalService } from 'app/core/login/login-modal.service';
@@ -13,6 +13,33 @@ import { Account } from 'app/core/user/account.model';
 export class HomeComponent implements OnInit, OnDestroy {
   account: Account | null = null;
   authSubscription?: Subscription;
+  productos = [
+    {
+      name: 'Mangos',
+      price: 59,
+      description: 'Delicisos mango rojos del campo'
+    },
+    {
+      name: 'Mangos',
+      price: 39,
+      description: 'Delicisos mango rojos del campo'
+    },
+    {
+      name: 'Mangos',
+      price: 19,
+      description: 'Delicisos mango rojos del campo'
+    },
+    {
+      name: 'Mangos',
+      price: 19,
+      description: 'Delicisos mango rojos del campo'
+    },
+    {
+      name: 'Mangos',
+      price: 19,
+      description: 'Delicisos mango rojos del campo'
+    }
+  ];
 
   constructor(private accountService: AccountService, private loginModalService: LoginModalService) {}
 

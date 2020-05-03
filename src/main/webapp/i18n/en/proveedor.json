@@ -1,0 +1,27 @@
+{
+  "marketApp": {
+    "proveedor": {
+      "home": {
+        "title": "Proveedors",
+        "createLabel": "Create a new Proveedor",
+        "createOrEditLabel": "Create or edit a Proveedor",
+        "notFound": "No Proveedors found"
+      },
+      "created": "A new Proveedor is created with identifier {{ param }}",
+      "updated": "A Proveedor is updated with identifier {{ param }}",
+      "deleted": "A Proveedor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Proveedor {{ id }}?"
+      },
+      "detail": {
+        "title": "Proveedor"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "zona": "Zona",
+      "manager": "Manager"
+    }
+  }
+}

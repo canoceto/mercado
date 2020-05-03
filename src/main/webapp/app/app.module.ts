@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { environment } from './environments/environment';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { ngxLoadingAnimationTypes, NgxLoadingModule } from 'ngx-loading';
 import './vendor';
 import { MarketSharedModule } from 'app/shared/shared.module';
 import { MarketCoreModule } from 'app/core/core.module';
@@ -23,9 +28,22 @@ import { ErrorComponent } from './layouts/error/error.component';
     MarketHomeModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     MarketEntityModule,
-    MarketAppRoutingModule
+    MarketAppRoutingModule,
+    AngularFireAuthModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    FormsModule,
+    ReactiveFormsModule,
+    NgxLoadingModule.forRoot({
+      animationType: ngxLoadingAnimationTypes.cubeGrid,
+      backdropBackgroundColour: 'rgba(0,0,0,0.1)',
+      backdropBorderRadius: '4px',
+      primaryColour: '#ffffff',
+      secondaryColour: '#ffffff',
+      tertiaryColour: '#ffffff'
+    })
   ],
   declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+  providers: [],
   bootstrap: [MainComponent]
 })
 export class MarketAppModule {}

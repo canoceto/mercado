@@ -1,12 +1,15 @@
 {
   "global": {
     "title": "Market",
+    "credito": "Su credito",
     "browsehappy": "Está usando un navegador <strong>no actualizado</strong>. Por favor, <a href=\"http://browsehappy.com/?locale=es\">actualice su navegador</a> para mejorar su experiencia.",
     "menu": {
       "home": "Inicio",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entidades",
+        "proveedor": "Proveedor",
+        "producto": "Producto",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -48,9 +51,9 @@
     "messages": {
       "info": {
         "authenticated": {
-          "prefix": "Si desea ",
+          "prefix": "Recuerde que al registrarse en nuestra pagina le regalamos 100 creditos. ",
           "link": "iniciar sesión",
-          "suffix": ", puede intentar con las cuentas predeterminadas:<br/>- Administrador (usuario=\"admin\" y contraseña=\"admin\") <br/>- Usuario (usuario=\"user\" y contraseña=\"user\")."
+          "suffix": ""
         },
         "register": {
           "noaccount": "¿Aún no tienes una cuenta?",
