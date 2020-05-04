@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-md-9">
+    <h1 class="display-4">Welcome!</h1>
+
+    <p class="lead">homepage</p>
+
+  </div>
+  <div class="col-md-12">
+    <span class="hipster img-fluid rounded"></span>
+  </div>
+</div>
+<h1 class="display-4" style="margin-top: 20px">Nuestros products locales</h1>
+<div class="row">
+  <div *ngFor="let producto of productos; " style="padding: 3px" class=" col-md-3">
+    <div class="card">
+
+      <img style="height: 150px" class="card-img-top" src="./assets/images/mangoes.jpg"
+           alt="Imagen del Product">
+      <div class="card-body">
+        <h4 class="card-title">{{producto.name}}</h4>
+        <span class="card-text"></span>: {{producto.price}}
+        <br>
+
+        <span class="card-text"></span>: {{producto.description}}
+        <br>
+        <a href="#" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+

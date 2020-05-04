@@ -1,1 +1,217 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin:0px;
+  padding:0px;
+}
+.main{
+  margin:0px;
+  padding:0px;
+}
+.input-error {
+  font-size: 80%;
+  color: #dc3545;
+}
+
+/** ======================  header ==============================**/
+a:hover{
+  text-decoration: none;
+}
+
+p{
+  font-size:16px;
+}
+
+/** end-sidebar **/
+.dash-header .header-right-list ul li button#dropdownMenuButton:after{
+  display:none;
+}
+
+.contents {
+  position: relative;
+  transition: .3s;
+  margin-left: 220px;
+  margin-top: 60px;
+}
+.inner-content{
+  background: #f3f5f9;
+  padding: 30px;
+}
+
+
+/*** start-login-page***/
+.bon-sec {
+  height: auto;
+  padding: 100px 0px;
+  background: #F3F5F9;
+}
+.inner-bon {
+  background: #fff;
+  /*border-radius: 10px;*/
+}
+.left-back {
+  background-image: url(./assets/images/login-2.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  width: 100%;
+  /*border-radius: 0px 8px 8px 0px;*/
+}
+.right-bon {
+  padding: 35px;
+}
+.right-bon form h2{
+  font-weight:bold;
+  text-transform: capitalize;
+}
+.right-bon form p{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.right-bon form label {
+  color: #93AFCA;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+}
+.right-bon form input[type="text"] {
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px #E9EFFA solid;
+  color: #000;
+  padding: 7px;
+  padding-left: 0px;
+  font-size: 18px;
+}
+.right-bon form .form-group a {
+  background: #3D7CF3;
+  color: #fff;
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.right-bon form .form-group button.btn.btn-primary {
+  background: #3D7CF3;
+  color: #fff;
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 8px !important;
+  margin-bottom: 10px;
+  border: 0px;
+  margin: 0px;
+}
+
+.right-bon form .form-group a.sign {
+  background: #93AFCA !important;
+}
+.right-bon form .form-group {
+  margin-bottom: 30px;
+}
+.right-bon form .social {
+  text-align: center;
+}
+.social p {
+  text-align: center;
+  color: #93AFCA;
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+  margin-top: -15px;
+}
+.right-bon form .social ul {
+  padding-left: 0px;
+}
+.right-bon form .social ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  cursor:pointer;
+}
+.right-bon form .social ul li .fa {
+  background: #4267B2;
+  width: 45px;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+}
+.right-bon form .row.radio-btns {
+  font-size: 18px;
+  color: #93AFCA;
+}
+.right-bon .row.radio-btns span {
+  margin-left: 5px;
+}
+.right-bon form label span {
+  color: #3D7CF3;
+  font-weight: 500;
+}
+.right-bon .row.sin-act a {
+  background: #3D7CF3;
+  color: #fff;
+  width: 100%;
+  max-width: 180px;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.right-bon form .pwds{
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px #E9EFFA solid;
+  color: #000;
+  padding: 7px;
+  padding-left: 0px;
+  font-size: 18px;
+}
+.right-bon .row.sin-act label span {
+  color: #3D7CF3 !important;
+}
+.row.sin-act a {
+  background: none !important;
+  color: #3D7CF3 !important;
+}
+
+/*** start-box-section ***/
+
+.box-section{
+  padding:80px 0px;
+  background:#fff;
+}
+.box-section .box {
+  text-align: center;
+  font-weight: 500;
+  margin: 15px 0px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box-section .box img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.box-section .box img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+/*** end-box-section ***/
+
